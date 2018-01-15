@@ -12,5 +12,7 @@ nav{
 nav li:hover  {
   background: white;
 
-
+}
+.iconos:hover {
+  opacity: 0.8;
 }
