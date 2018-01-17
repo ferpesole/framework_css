@@ -1,5 +1,6 @@
 body{
   background-color: #03353A;
+  
 }
 header{
   background-color: white;
@@ -15,4 +16,5 @@ nav li:hover  {
 }
 .iconos:hover {
   opacity: 0.8;
+
 }
