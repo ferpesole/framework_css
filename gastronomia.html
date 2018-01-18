@@ -10,14 +10,12 @@
   <title>Blog de Gastronomia</title>
 </head>
 <body style="background-image:url(img/fondo.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; background-attachment:fixed">
+  <div class="row contenido">
+  <div class="medium-12 columns" >
   <div class="row">
-  <div class="medium-12 columns">
-
-
-  <div class="row" style="background:yellow">
   <header>
 
-    <div class="medium-4 columns" style="border-right:1px solid white">
+    <div class="medium-4 columns">
 
         <h2 class="align-top align-left">
           Cocinando
@@ -35,42 +33,42 @@
 
 
 
-    <div class="row" style="background:yellow">
-    <div class="medium-4 columns" style="padding-left:2%; padding-right:2%">
+    <div class="row ">
+    <div class="medium-4 columns block-izquierdo hide-for-small-only">
       <div class="row">
-    <div class="medium-12 columns" style="background-color:gray; border-radius:8px">
-    <div class="input-group" style="margin-top:10%">
+    <div class="medium-12 columns" id="contenido-bloque1">
+    <div class="input-group btn-busqueda">
     <input class="input-group-field" type="search">
     <span class="input-group-label">
     <i class="fi-magnifying-glass size-18"></i>
     </span>
 </div>
-<button class="hollow button expanded" href="#" style="margin-bottom:0">Primary</button>
-<button class="hollow button expanded" href="#" style="margin-bottom:0">Primary</button>
-<button class="hollow button expanded" href="#"  style="margin-bottom:10%">Primary</button>
+<button class="hollow button expanded" href="#" style="margin-bottom:0;color:rgb(57, 188, 138); border-color:rgb(57, 188, 138) ">Inicio</button>
+<button class="hollow button expanded" href="#" style="margin-bottom:0; color:rgb(57, 188, 138); border-color:rgb(57, 188, 138)">Mis platos favoritos</button>
+<button class="hollow button expanded" href="#"  style="margin-bottom:10%; color:rgb(57, 188, 138); border-color:rgb(57, 188, 138)">Recetas</button>
 <h5>Favoritos:</h5>
 <div class="row small-up-2 medium-up-3">
 <div class="column column-block">
-  <img src="img/milanesa.jpg" class="thumbnail" alt="">
+  <img src="img/milanesa.jpg" class="thumbnail" alt="MIlanesa">
 </div>
 <div class="column column-block">
-  <img src="img/ravioles.jpg" class="thumbnail" alt="">
+  <img src="img/ravioles.jpg" class="thumbnail" alt="Ravioles">
 </div>
 <div class="column column-block">
-  <img src="img/helado.jpg" class="thumbnail" alt="">
+  <img src="img/helado.jpg" class="thumbnail" alt="Helado">
 </div>
 <div class="column column-block">
-  <img src="img/hamburguesa.jpg" class="thumbnail" alt="">
+  <img src="img/hamburguesa.jpg" class="thumbnail" alt="Hamburguesa">
 </div>
 <div class="column column-block">
-  <img src="img/spaguetti.jpg" class="thumbnail" alt="">
+  <img src="img/spaguetti.jpg" class="thumbnail" alt="Spaguetti">
 </div>
 <div class="column column-block">
-  <img src="img/carne.jpg" class="thumbnail" alt="">
+  <img src="img/carne.jpg" class="thumbnail" alt="Asado">
 </div>
 </div>
 <h5>Historial:</h5>
-<div style="margin-left:5%">
+<div class="historial">
   <p>Milanesa</p>
   <p>Ravioles</p>
   <p>Ñoquis</p>
@@ -81,24 +79,24 @@
   </div>
 </div>
 
-    <div class="medium-8 columns" style="padding-left:2%; padding-right:2%" >
+    <div class="medium-8 columns block-derecho">
       <div class="row">
-      <div class="medium-12 columns" style="background-color:rgba(154, 205, 50,0.3); border-radius:8px">
-      <h3>Comidas saludables</h3>
-      <p style="color:green">16/01/2018</p>
-      <img src="img/comidas-mas-sanas.jpg" alt="" class="thumbnail">
+      <div class="medium-12 columns" id="contenido-bloque2">
+      <h4>Comidas saludables</h4>
+      <p class="subtitulo">16/01/2018</p>
+      <img src="img/comidas-mas-sanas.jpg" alt="Comidas mas sanas" class="thumbnail">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <hr>
       <h5>Escribe un comentario</h5>
-      <label style="text-align:right; margin-bottom:0">
+      <label class="area-comentarios text-right">
   <textarea rows="3" style="margin-bottom:0"></textarea>
-  <a href="#" class="button success"><i class="fi-pencil" style="color:white;margin-top:0"></i><strong style="color:white"> Publicar</strong></a>
+  <a href="#" class="button btn-publicacion" ><i class="fi-pencil"></i><strong>Publicar</strong></a>
 </label>
 <hr>
 <div>
-  <div class="callout small" style="background:none">
+  <div class="callout small comentarios">
     <div class="row">
-    <div class="small-2 columns"><img src="img/user1.svg"  width="100%" alt="" >
+    <div class="small-2 columns"><img src="img/user1.svg"  width="100%" alt="User1" >
     </div>
     <div class="small-10 columns" >
       <span>It has an easy to override visual style, and is appropriately subdued.</span>
@@ -107,9 +105,9 @@
 
 </div>
 
-<div class="callout small" style="background:none">
+<div class="callout small comentarios">
   <div class="row">
-  <div class="small-2 columns"><img src="img/user2.svg"  width="100%" alt="" >
+  <div class="small-2 columns"><img src="img/user2.svg"  width="100%" alt="User2" >
   </div>
   <div class="small-10 columns" >
     <span>It has an easy to override visual style, and is appropriately subdued.</span>
@@ -117,7 +115,7 @@
 </div>
 
 </div>
-<div class="callout small" style="background:none; ">
+<div class="callout small comentarios">
   <div class="row">
   <div class="small-2 columns"><img src="img/user3.svg"  width="100%" alt="" >
   </div>
@@ -131,22 +129,22 @@
 
   </div>
 </div>
-<div class="medium-12 columns" style="background-color:rgba(154, 205, 50,0.3); border-radius:8px">
-<h3>Las mejores platos de mar</h3>
-<p style="color:green">17/01/2018</p>
-<img src="img/mariscos.jpg" alt="" class="thumbnail">
+<div class="medium-12 columns" id="contenido-bloque3">
+<h4>Las mejores platos de mar</h4>
+<p class="subtitulo">17/01/2018</p>
+<img src="img/mariscos.jpg" alt="Mariscos" class="thumbnail">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <hr>
 <h5>Escribe un comentario</h5>
-<label style="text-align:right; margin-bottom:0">
+<label class="area-comentarios text-right">
 <textarea rows="3" style="margin-bottom:0"></textarea>
-<a href="#" class="button success"><i class="fi-pencil" style="color:white;margin-top:0"></i><strong style="color:white"> Publicar</strong></a>
+<a href="#" class="button btn-publicacion"><i class="fi-pencil"></i><strong>Publicar</strong></a>
 </label>
 <hr>
 <div>
-<div class="callout small" style="background:none">
+<div class="callout small comentarios">
 <div class="row">
-<div class="small-2 columns"><img src="img/user1.svg"  width="100%" alt="" >
+<div class="small-2 columns"><img src="img/user1.svg"  width="100%" alt="User1" >
 </div>
 <div class="small-10 columns" >
 <span>It has an easy to override visual style, and is appropriately subdued.</span>

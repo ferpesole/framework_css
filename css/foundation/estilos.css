@@ -1,0 +1,67 @@
+.contenido{
+  background-color: rgba(57, 188, 138, 0.8);
+}
+
+header .columns{
+  border-right:1px solid white;
+}
+
+.block-izquierdo{
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.block-derecho{
+  padding-left:2%;
+  padding-right:2%;
+}
+
+
+
+#contenido-bloque1{
+  background-color: rgba(240, 242, 163, 0.7);
+  border-radius:4px;
+
+}
+
+#contenido-bloque2{
+  background-color: rgba(201, 255, 147, 0.7);
+  border-radius:4px;
+
+}
+
+#contenido-bloque3{
+  background-color:rgba(201, 255, 147, 0.7);
+  border-radius:4px;
+  margin-top:3%
+}
+
+.btn-busqueda{
+  margin-top:10%;
+}
+
+.historial{
+  margin-left:5%;
+  color:rgb(57, 188, 138)
+}
+
+.subtitulo{
+  color:gray;
+}
+
+.comentarios{
+  background:none;
+}
+
+.btn-publicacion{
+  background-color:rgb(57, 188, 138);
+  margin-top: 0;
+}
+
+.btn-publicacion i strong{
+  color: white;
+}
+
+.area-comentarios{
+  margin-bottom:0;
+}
