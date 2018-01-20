@@ -1,0 +1,33 @@
+body{
+  background-image:url(../../img/paisaje.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+}
+.encabezado {
+  margin-bottom: 2%;
+
+}
+
+.imagen-encabezado{
+  border-radius:8px;
+  margin-top:15%
+
+}
+
+.iconos{
+font-size:3em;
+color:#eeeeee;
+margin-bottom:10%
+
+}
+
+.articulo{
+  padding-left:1%;
+  padding-right:1%
+}
+
+.articulo img{
+  margin-top: 4%;
+}
